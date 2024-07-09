@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "SQL Query Saver",
+  "version": "1.0",
+  "description": "Save SQL queries to use later",
+  "permissions": ["storage"],
+   "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "commands": {
+    "open_popup": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Q"
+      },
+      "description": "Open SQL Query Saver"
+    }
+  }
+}

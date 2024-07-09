@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Notepad Explorer",
+    "version": "1.0",
+    "description": "A simple notepad explorer that can be hidden or kept open",
+    "permissions": ["storage"],
+    "action": {
+      "default_popup": "popup.html"
+      
+    },
+    
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
